@@ -62,7 +62,7 @@ public class Main
                 }
             }
 
-            System.out.println("Play again? [Y/N]: ");
+            System.out.print("Play again? [Y/N]: ");
             playAgain = in.nextLine();
 
             if (playAgain.equalsIgnoreCase("N")) {
